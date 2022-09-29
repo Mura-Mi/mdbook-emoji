@@ -172,12 +172,9 @@ dependencies = [
 
 [[package]]
 name = "emojis"
-version = "0.1.2"
+version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cbf85aeacc72b7b5d9e78b39399562a2846566936e41a6f59f9d96b3fa7c4f96"
-dependencies = [
- "strsim 0.10.0",
-]
+checksum = "3fdc0036e5881a30eec779c55ac7b4bf54eedc3c72ddc8d02c2a580c43b1c9ba"
 
 [[package]]
 name = "env_logger"

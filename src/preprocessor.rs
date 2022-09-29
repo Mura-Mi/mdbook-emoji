@@ -51,7 +51,7 @@ impl EmojiPreprocessor {
     }
 
     fn process_capture(shortcode: String, buffer: &str) -> Result<String, Error> {
-        let emoji = emojis::lookup(&shortcode.replace(":",""));
+        let emoji = emojis::get_by_shortcode(&shortcode.replace(":",""));
         if emoji != None {
             return Ok(Regex::new(&shortcode)
                         .unwrap()
